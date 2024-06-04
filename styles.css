@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url(images/Lilburn.jpeg);
+    background-size: cover;
+    height: 250px;
+    color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 3px;
+    background: #386641;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 3px;
+    background: #386641;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#activity {
+    background-color: #f2e8cf;
+    color: #6a994e;
+}
+
+#text-head {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.area {
+    margin: 5px;
+    height: 250px;
+    width: 200px;
+}
+
+.area:hover {
+    background-color: #d6cd9f;
+    width: 200px;
+    padding-top: 7px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+#places {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.d {
+    border-bottom: 2px solid;
+    margin-bottom: 5px;
+}
+
+.img {
+    border-radius: 30px
+}
+
+#guide {
+    width: 300px;
+    padding: 10px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #bc4749;
+    color: #f6bd60;
+    border-bottom: 8px solid #f6bd60;
+    border-radius: 5px;
+}
+
+.top {
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+
+.middle {
+    font-size: 12px;
+}
+
+.bottom {
+    margin-top: 7px;
+}
